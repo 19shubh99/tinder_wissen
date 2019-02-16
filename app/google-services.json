@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "783336053403",
+    "firebase_url": "https://wissen-one.firebaseio.com",
+    "project_id": "wissen-one",
+    "storage_bucket": "wissen-one.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783336053403:android:71d5fb11d3d9ca9a",
+        "android_client_info": {
+          "package_name": "com.example.tinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "783336053403-4famhvbumbairhr5oq4nal24o03kmtum.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tinder",
+            "certificate_hash": "8a91101696108249fe41ea6bee68e1389ba981d0"
+          }
+        },
+        {
+          "client_id": "783336053403-sdi27gt1vc52u044l8t5k0it3qivnfsb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeyt62lUZ6YeLT5lgloZibgGTg_-jYZfA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "783336053403-sdi27gt1vc52u044l8t5k0it3qivnfsb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
