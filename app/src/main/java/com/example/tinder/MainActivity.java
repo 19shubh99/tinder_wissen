@@ -1,11 +1,14 @@
 package com.example.tinder;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Toast;
 
+import com.google.firebase.auth.FirebaseAuth;
 import com.lorentzos.flingswipe.SwipeFlingAdapterView;
 
 import java.util.ArrayList;
@@ -15,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     private ArrayList<String> al;
     private ArrayAdapter<String> arrayAdapter;
     private int i;
+    private FirebaseAuth mAuth;
 
 
 
@@ -22,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
 
 
         al = new ArrayList<>();
@@ -91,6 +94,18 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+    }
+//    public void showQuestion()
+//    {
+//        DatabaseReference questionDb= FirebaseDatabase.getInstance().getReference().child("questions");
+//    }
+
+    public void logoutUser(View view){
+        mAuth.signOut();
+        Intent intent=new Intent(MainActivity.this,chooseloginandregisterActivity.class);
+        startActivity(intent);
+        finish();
+        return;
     }
 
 }
