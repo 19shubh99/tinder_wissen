@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
                 // Ask for more data here
                 int x=2;
                 if(i%x==0)
-                al.add("<3 ");
+                    al.add("<3 ");
                 else
                     al.add(":P ");
                 arrayAdapter.notifyDataSetChanged();
@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onScroll(float scrollProgressPercent) {
-                }
+            }
         });
 
 
