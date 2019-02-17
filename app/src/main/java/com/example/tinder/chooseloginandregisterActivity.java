@@ -16,7 +16,7 @@ public class chooseloginandregisterActivity extends AppCompatActivity {
 
         mLogin = (Button) findViewById(R.id.login);
         mRegister = (Button) findViewById(R.id.register);
-
+        mAdmin =(Button) findViewById(R.id.admin);
 
         mLogin.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -32,6 +32,16 @@ public class chooseloginandregisterActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(chooseloginandregisterActivity.this, registration.class);
+                startActivity(intent);
+                finish();
+                return;
+            }
+        });
+
+        mAdmin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(chooseloginandregisterActivity.this,AdminActivity.class);
                 startActivity(intent);
                 finish();
                 return;
