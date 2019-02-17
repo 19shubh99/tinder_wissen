@@ -8,12 +8,12 @@
     android:orientation="vertical">
 
 
-    <!--<EditText-->
-        <!--android:id="@+id/name"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:inputType="text"-->
-        <!--android:hint="name"/>-->
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="name"/>
     <!--<RadioGroup-->
         <!--android:layout_width="match_parent"-->
         <!--android:layout_height="wrap_content"-->
@@ -33,12 +33,12 @@
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress"
         android:hint="email"/>
-    <!--<EditText-->
-        <!--android:id="@+id/contact"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:inputType="phone"-->
-        <!--android:hint="contact"/>-->
+    <EditText
+        android:id="@+id/contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="contact"/>
 
     <EditText
         android:id="@+id/password"
