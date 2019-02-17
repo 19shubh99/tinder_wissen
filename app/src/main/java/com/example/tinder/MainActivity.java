@@ -95,10 +95,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
-//    public void showQuestion()
-//    {
-//        DatabaseReference questionDb= FirebaseDatabase.getInstance().getReference().child("questions");
-//    }
+
 
     public void logoutUser(View view){
         mAuth.signOut();

@@ -8,7 +8,7 @@ import android.widget.Button;
 
 public class chooseloginandregisterActivity extends AppCompatActivity {
 
-    private Button mLogin, mRegister;
+    private Button mLogin, mRegister,mAdmin;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -16,6 +16,7 @@ public class chooseloginandregisterActivity extends AppCompatActivity {
 
         mLogin = (Button) findViewById(R.id.login);
         mRegister = (Button) findViewById(R.id.register);
+
 
         mLogin.setOnClickListener(new View.OnClickListener() {
             @Override
